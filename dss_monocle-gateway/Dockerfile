@@ -17,15 +17,15 @@ ARG BUILD_ARCH=amd64
 # Install Monocle Gateway dependencies
 # and other useful utilties
 # ---------------------------------------
-RUN apk update &&      \
-    apk add --no-cache \
-    wget               \
-    curl               \
-    libstdc++          \
-    nano               \
-    net-tools          \
-    openssl            \
-    ca-certificates
+#RUN apk update &&      \
+#    apk add --no-cache \
+#    wget               \
+#    curl               \
+#    libstdc++          \
+#    nano               \
+#    net-tools          \
+#    openssl            \
+#    ca-certificates
 
 # ---------------------------------------
 # Download versioned Monocle Gateway
